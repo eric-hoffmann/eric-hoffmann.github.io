@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Eric Hoffmann</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/mycss.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script>
+    $(window).on('load',
+      function() {
+        console.log("Hi there!");
+        $("#banner").fadeIn(2000);
+      }
+    )
+  </script>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar nav-tabs navbar-expand-sm navtab-custom">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+	<a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+	<a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+	<a class="nav-link" href="myresume.pdf">Resume</a>
+      </li>
+      <li class="nav-item">
+	<a class="nav-link" href="#">Academics</a>
+      </li>
+      <li class="nav-item">
+	<a class="nav-link" href="#">GitHub</a>
+      </li>
+    </ul>   
+  </nav>
+  <!-- Banner and headshot -->
+  <div id="banner">
+    <div class="headshot">
+      <img id=headshot src="/assets/img/headshot_transparent2.png" alt="Headshot">
+    </div>
+  </div>
+  <h1 id="name">Eric Hoffmann</h1>
+  <div class="text-body">
+    <p>Hello, and welcome to my personal website! I am a computer engineering major at the University of Maryland, College Park. I enjoy coding, as well as designing and building small quadcopter drones. When I have the chance, I also like to go hiking, biking, and skiing.</p>
+  </div>
+</body>
+</html>
