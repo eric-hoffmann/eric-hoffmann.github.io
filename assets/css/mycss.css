@@ -133,6 +133,35 @@
     padding-left: 10%;
 }
 
+.semester-box {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #223d68;
+}
+
+.semester-box p:not(.gpa-box) {
+    font-size: medium;
+    margin-bottom: 0;
+    padding-left: 2%;
+}
+
+.semester-box p:nth-child(odd):not(.gpa-box){
+    background-color: #7aa4ef;
+    background: linear-gradient(to right, rgba(122, 164, 239,1), rgba(122, 164, 239,0));
+}
+
+.gpa-box {
+    position: relative;
+    float: right;
+    z-position: 1;
+    background-color: #223d68;
+    color: white;
+    font-size: medium;
+    border-style: solid;
+    border-color: #7aa4ef;
+    border-width: 2px;
+}
+
 body, html {
    border: 0;
    padding: 0;
