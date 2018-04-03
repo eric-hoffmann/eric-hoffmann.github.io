@@ -83,6 +83,8 @@
     text-indent: 5%;
     padding: 2% 7%;
     font-size: large;
+    max-width: 66%;
+    margin: auto;
 }
 
 #section-container {
